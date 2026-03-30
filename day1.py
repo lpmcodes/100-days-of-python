@@ -27,6 +27,7 @@ print('The lenght of username word is:', lenght) # or using ',' -> don't need sp
 print(f'The lenght of username word is: {lenght}') # or using "f-string"
 '''
 
+'''
 # challenge 2 (Write 3 lines of code to switch the contents of the variables)
 glass1 = 'milk'
 glass2 = 'juice'
@@ -36,3 +37,11 @@ glass1 = glass2
 glass2 = aux
 
 print(glass1 + '\n' + glass2)
+'''
+
+# band name generator project
+print('Welcome to the band name generator.')
+grow_up_city = input('Wich city did you grow up in?\n')
+pet_name = input('Give me a pet name: ')
+band_name = (grow_up_city + ' ' + pet_name)
+print('Your band name could be: ' + band_name)

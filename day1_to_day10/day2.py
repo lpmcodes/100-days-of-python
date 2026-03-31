@@ -41,6 +41,7 @@ print(round(gli))
 mto = 35.8912839
 print(round(mto, 2)) # will retain the value to two decimal places
 '''
+'''
 score = 0
 
 # User score a point
@@ -53,3 +54,13 @@ is_winning = True
 print('Your score is ' + str(score) + ', your height is ' + str(height) + ', and you are winning is ' + str(is_winning))
 # you can use
 print(f'Your score is {score}, your height is {height}, and you are winning is {is_winning}')
+'''
+# Day 2 Project - Tip Calculator
+print('Welcome to the tip calculator')
+total_bill = input('What was the total bill? $')
+tip_value = input('How much tip would you like to give? 10, 12, or 15? ')
+persons = input('How many people to split the bill? ')
+
+pay_value = round(((float(total_bill) * (float(tip_value) / 100)) + float(total_bill)) / float(persons), 2)
+print(f'Each person should pay: ${pay_value}')
+

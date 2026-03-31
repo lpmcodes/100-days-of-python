@@ -23,4 +23,18 @@ print(5 ** 2) # by using '**', you can raise a number to a power
 # **
 # * OR (/ -> //)
 # + OR -
+'''
 print((int(3 * (3 + 3) / 3 - 3)))
+'''
+bmi = 84 / (1.65 ** 2)
+print(bmi)
+
+print(int(bmi))
+
+print(round(bmi)) # 'round' -> round to the nearest whole number
+
+gli = 30.29
+print(round(gli))
+
+mto = 35.8912839
+print(round(mto, 2)) # will retain the value to two decimal places

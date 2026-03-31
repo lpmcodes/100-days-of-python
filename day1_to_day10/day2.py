@@ -26,6 +26,8 @@ print(5 ** 2) # by using '**', you can raise a number to a power
 '''
 print((int(3 * (3 + 3) / 3 - 3)))
 '''
+# + OR -
+'''
 bmi = 84 / (1.65 ** 2)
 print(bmi)
 
@@ -38,3 +40,16 @@ print(round(gli))
 
 mto = 35.8912839
 print(round(mto, 2)) # will retain the value to two decimal places
+'''
+score = 0
+
+# User score a point
+score += 1
+print(score)
+height = 1.82
+is_winning = True
+
+# f-strings
+print('Your score is ' + str(score) + ', your height is ' + str(height) + ', and you are winning is ' + str(is_winning))
+# you can use
+print(f'Your score is {score}, your height is {height}, and you are winning is {is_winning}')

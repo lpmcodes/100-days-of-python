@@ -35,6 +35,7 @@ else:
 '''
 # ----------------- // -----------------
 # if inside of another if
+'''
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
@@ -49,3 +50,17 @@ if height >= 120:
         print("You have to pay 5 $.")
 else:
     print("You can't buy a ticket!")
+'''
+weight = 85
+height = 1.85
+
+bmi = weight / (height ** 2)
+
+print(f"bmi = {bmi}.\n")
+
+if bmi < 18.5:
+    print("underweight")
+elif bmi >= 18.5 and bmi < 25:
+    print("normal weight")
+elif bmi >= 25:
+    print("overweight")
